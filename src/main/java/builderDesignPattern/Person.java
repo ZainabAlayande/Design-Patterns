@@ -35,15 +35,16 @@ public class Person {
             this.age = age;
         }
 
-        public Builder setAddress(String address) {
+        public Builder address(String address) {
             this.address = address;
             return this;
         }
 
-        public Builder setEmail(String email) {
+        public Builder email(String email) {
             this.email = email;
             return this;
         }
+
 
         public Person build() {
             return new Person(this);
